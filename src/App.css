@@ -1,0 +1,94 @@
+/* App.css */
+
+/* General Styles */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.App {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Header Styles */
+h1 {
+    font-size: 2.5rem;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+/* Stock Dashboard Styles */
+.stock-dashboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+}
+
+/* Search Bar Styles */
+.search-input {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    font-size: 1rem;
+}
+
+/* Table Styles */
+.stock-table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+.stock-table th, .stock-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+.stock-table th {
+    background-color: #2c3e50;
+    color: white;
+}
+
+/* Row Styles */
+.stock-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.stock-table tr:hover {
+    background-color: #d1e7dd; /* Light green on hover */
+}
+
+/* Responsive Table */
+@media (max-width: 768px) {
+    .stock-table {
+        width: 100%;
+    }
+
+    .stock-table th, .stock-table td {
+        font-size: 0.9rem;
+    }
+}
+
+/* Error Message Styles */
+.error {
+    color: red;
+    margin-top: 20px;
+}
+
+/* Loader Styles */
+.loader {
+    margin: 20px;
+    font-size: 1.5rem;
+    color: #2c3e50;
+}
